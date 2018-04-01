@@ -1,0 +1,108 @@
+.nav-item {
+	margin: 16px 10px;
+}
+.navbar-brand img {
+	height: 30px;
+	margin-right: 8px;
+	width: 120px;
+}
+
+header {
+	background-color: #F0F8FF;
+	padding: 140px 0 100px;
+	background-image: url(../img/foto2.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+header h2 {
+	color: white;
+}
+header h1 {
+	color: green;
+}
+@media (min-width: 576px) {
+	header {
+	padding: 200px 0;
+}
+}
+
+body{
+	color: #4a4a4a;
+}
+h1 {
+	color: #000000;
+	font-size: 36px;
+}
+@media (min-width: 576px) {
+	h1 {
+		font-size: 48px;
+	}
+}
+
+.section{
+	padding: 60px 0 40px;
+}
+@media (min-width: 576px) {
+	.section {
+		padding: 100px 0;
+	}
+}
+
+
+.first-section ul {
+	background-color: #F7F9FC;
+	margin-top: 25px;
+	padding: 30px 55px;
+	border-radius: 8px;
+}
+
+.first-section {
+	background-color: white;
+}
+.first-section img {
+	margin-bottom: 35px;
+}
+@media (min-width: 768px) {
+	.first-section img {
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 992px) {
+	.first-section img {
+		margin-bottom: 0;
+	}
+}
+
+.section-second {
+	background-color: #FBFBFB;
+}
+
+.third-section {
+	background-color: white;
+}
+.third-section img {
+	margin-top: 35px;
+}
+@media (min-width: 768px) {
+	.third-section img {
+		margin-top: 0;
+	}
+}
+
+.forth-section {
+	background-color: #F0F8FF;
+	background-image: url(https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/v1/205332/xudith_eqstcp.png);
+	background-repeat: no-repeat;
+	background-size: 124px 178px;
+}
+
+footer {
+	background-color: white;
+	padding: 35px 0;
+}
+.footer-logo {
+	height: 22px;
+	width: 22px;
+	margin-bottom: 3px;
+}
